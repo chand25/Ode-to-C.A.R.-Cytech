@@ -1,0 +1,80 @@
+
+html{
+  width:100%;
+}
+
+body{
+  width:100%;
+  margin: 0 auto;
+}
+header{
+  height: 25%;
+  width:100%;
+}
+
+
+nav{position: fixed;
+	width: 100%;
+	background-color: rgba(180,180,255, 1);
+    z-index: 2;
+ 	color: white;
+ 	font-size: 25px;
+ 	font-family: 'Special Elite', cursive;
+ 	text-align: center;}
+
+
+ .bar{
+ 	color: rgba(40, 30, 150, 1);
+ 	padding-right: 1%;
+	padding-left: 1%;}
+
+
+  .bar:hover{
+		border: dashed blue;
+		border-radius: 15px;
+		color: blue;
+		background-color: rgba(255,255,255,.8);
+	}
+
+
+/* footer unvisited link */
+ .bar:link {text-decoration: none; }
+
+ /* footer visited link */
+ .bar:visited {text-decoration: none; }
+
+footer{
+	color: grey;
+	font-size: 20px;
+	height: 20%;
+	margin-top: 60%;
+	background: linear-gradient(-90deg, rgba(40, 30, 150, 1), silver);
+    background: -moz-linear-gradient(-90deg, rgba(40, 30, 150, 1), silver);
+	background: -o-linear-gradient(-90deg, rgba(40, 30, 150, 1), silver);
+	background: -webkit-linear-gradient(-90deg, rgba(40, 30, 150, 1), silver);}
+
+
+#footerlogo{
+	height: 10%;
+	margin-left: 60%;
+	}
+
+#foot{top: 100px;}
+
+.footside{display: inline-block;}
+
+ul li {
+	list-style-type: none;
+	float: left;
+}
+
+.footpics{height: 40px;
+				width: 40px}
+
+/* footer unvisited link */
+ .foot:link {color: grey;
+ text-decoration: none; }
+
+ /* footer visited link */
+ .foot:visited {color: grey;
+ text-decoration: none; }

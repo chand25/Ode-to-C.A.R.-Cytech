@@ -1,0 +1,102 @@
+
+
+
+
+html body{
+  height: 100%;
+}
+
+header{
+  height: 25%;
+  width:100%;
+}
+
+video#whole {
+  min-width: 100%;
+  background: url(../images/indexstill.jpg) no-repeat;
+}
+
+
+#videohead{
+  width:100%;
+  position: absolute;
+   left: 0px;
+   top: 0px;
+   height: 400px;
+   width:100%;
+   overflow: hidden;
+}
+
+
+nav{
+  position: relative;
+  height: 4%;
+  margin-top: 22%;
+}
+
+
+
+#cname{
+position: relative;
+z-index: 2;
+text-align: left;
+}
+
+ input{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgba(20, 50, 150, .9);
+  border: 1px solid white;
+}
+
+
+input[type=submit]:hover{
+  border: solid blue;
+  background-color: rgba(100,50,90,.8);
+  font-weight: bold;
+}
+
+
+
+h3{
+  color: rgba(240, 240, 255, 1);
+}
+
+
+
+#com{
+  background-color: rgba(20, 50, 150, .9);
+  font-size: 20px;
+  color: white;
+  height: 150px;
+  width: 50%;
+  font-weight: bold;
+}
+
+#type{
+  width: 50%;
+   margin-left: 25%;
+   background-color: rgba(20, 50, 150, .6);
+}
+
+#inner{
+  width: 50%;
+  margin-left: 35%;
+  font-weight: bold;
+}
+
+form{
+  background-color: rgba(20, 50, 150, .6);
+  width: 50%;
+  font-weight: bold;}
+
+body{
+  background: url(../images/thefuture.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+  color: rgba(240, 240, 255, 1);
+ background-attachment: fixed;
+ font-size: 24px;}
+
+

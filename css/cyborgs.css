@@ -1,0 +1,53 @@
+
+
+
+
+video#whole {
+  min-width: 100%;
+  background: url(../images/indexstill.jpg) no-repeat;}
+
+video#evo{position: absolute;
+  z-index: 2;
+  margin-top: -30%
+}
+
+
+#insidevideo{
+  margin-top: 1%;
+ margin-left: 32%;
+ width: 550px;}
+
+#videohead{
+  width:100%;
+    position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 400px;
+  width:100%;
+  overflow: hidden;
+}
+
+
+nav{
+  position: relative;
+  height: 4%;
+      margin-top: 27%;}
+
+img{height: 300px; width: 300px;}
+
+footer{
+  margin-top: 30%;}
+
+
+#updates{width: 100%;
+  text-align: center;
+  margin: 0 auto;}
+
+#updates h1{
+  width: 70%;
+margin: 0 auto;
+text-align: center;}
+
+
+
+</style>

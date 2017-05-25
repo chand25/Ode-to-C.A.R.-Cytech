@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<title>The Virt</title>
+
+	<link href="/normalize.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" type="text/css" href="css/virt.css">
+
+</head>
+
+<header>
+<!--video was edited and made by me with the help of IMovie and Kizoa-->
+	<div class="cities">
+
+	</div>
+
+<div id="cname"><h1 style="font-family: 'Special Elite', cursive; color: blue;}">CYTECH, Inc</h1></div>
+
+    <nav>
+
+		<a class="bar" href= "Home.html" >About</a> |
+
+    	<a class="bar" href= "CAR.html">Synthetic Lifeforms</a> |
+
+		<a class="bar" href= "Regen.html">Regenerative Medicine &#38; Synthetic Biology</a> |
+
+		<a class="bar" href= "Virt2.html">The Virt</a> |
+
+		<a class="bar" href= "Contact Us.html">Contact</a>
+
+
+
+	</nav>
+
+
+</header>
+
+
+
+<body>
+<!--The World's future Mega Projects (2015-2030s) from the Daily Conversation-->
+
+<br><br><br><br>
+<h1 style="text-align: center; font-family: 'Special Elite', cursive; color: black;">Bringing the Reality to the Virt</h1>
+
+<br><br><br><br><br><br>
+
+<!--Pictures were sourced from Google. The pods are actually sleep pods One picture is from ALien the movie-->
+
+<div id="immerse">
+
+<img class="virtpics1" src="images/thefuturecity.jpg">
+<h2 style="text-align: center;"> Immerse yourself into the "Reality of Your Dreams."</h2> <p style="text-align: center;">Take a vacation on us. If you love it then why not live there.</p>
+</div>
+
+
+<br><br><br><br>
+<div class="slideshow">
+
+
+
+
+<div class="pods">
+
+<img class="virtpics" src="images/virtplane.jpg">
+
+</div>
+
+<div class="pods">
+
+<img class="virtpics" src="images/virtsmile.jpg">
+
+</div>
+
+<div class="pods">
+
+<img class="virtpics" src="images/vrpurple.jpg">
+
+</div>
+
+<div class="pods">
+
+<img class="virtpics" src="images/vrgateway.jpg">
+
+</div>
+
+<div class="pods">
+
+<img class="virtpics" src="images/vrrocket2.jpg">
+
+</div>
+
+<div class="pods">
+
+<img class="virtpics" src="images/vrrocket3.jpg">
+
+</div>
+
+
+<div class="pods">
+
+<img class="virtpics" src="images/meditate.jpg">
+
+</div>
+
+<div class="pods">
+
+<img class="virtpics" src="images/Virt1.jpg">
+
+</div>
+
+<div class="wbuttons">
+<button><a class="back-button" onclick="plusDivs(-1)">&#10094; </a></button>
+</div>
+
+<div class="rbuttons">
+<button><a class="forward-button" onclick="plusDivs(+1)">&#10095;</a></button>
+</div>
+
+</div>
+<!--Read more: http://www.dailymail.co.uk/sciencetech/article-2344398/Google-futurist-claims-uploading-entire-MINDS-computers-2045-bodies-replaced-machines-90-years.html#ixzz4QGJhAoW3
+-->
+<div id="podwords">
+<h2 style="text-align: center;"> Take a look at the technology.</h2> <p style="text-align: center;">The latest and greatest is all we provide. Experience the Virt for shorter intervals or make the choice to upload your essence into the cloud and become digitally immortal - an event called singularity. Our pods are located at certain airports, rest stations throughout the world. For a permanent choice please visit one of our centers.
+</p>
+</div>
+
+
+
+
+</body>
+
+
+<script type="text/javascript">
+
+
+//This is code for slideshow of pictures.
+var slideIndex = 1;
+showDivs(slideIndex);
+
+
+//plusDivs is defining buttons.
+function plusDivs(n) {
+	showDivs(slideIndex += n);
+}
+
+//think of it as a number line (array)
+// if n is greater than all my slides then do this( bring my slideIndex to 1-starting point....n is referring to current slide.
+//n is less than one which is zero than it will take me back
+//length is total amount of slides
+
+// for (loop) = starts, condition, execution
+
+// var x is an array
+function showDivs(n) {
+	var i;
+	var x = document.getElementsByClassName("pods");
+	if (n > x.length) {slideIndex = 1}
+	if (n < 1) {slideIndex = x.length}
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	}
+	x[slideIndex-1].style.display = "block";
+}
+
+</script>
+
+
+
+
+<footer>
+
+<a class="foot" href= "Home.html">ABOUT US</a> |
+<a class="foot" href= "Contact Us.html">CONTACT US</a> |
+
+
+<ul>
+<li><a href="http://facebook.com/" target="_blank"><img class="footpics" src="images/facebooklogo.png"></a></li>
+<li><a href="http://linkedin.com/" target="_blank"><img class="footpics" src="images/linkedin.png"></a></li>
+<li><a href="http://twitter.com/" target="_blank"><img class="footpics" src="images/Twitterbird.png"></a></li>
+<li><a href="http://plus.google.com/" target="_blank"><img class="footpics" src="images/googleplus.png"></a></li>
+</ul>
+
+<div class="footside"><p>&copy; Copyright 2017, CYTECH, Inc. All Rights Reserved.</p></div>
+
+ <div class="footside"><img id="footerlogo" src="images/CYTECH Logo Small.jpeg">
+
+
+
+</footer>
+
+</html>

@@ -1,0 +1,117 @@
+
+body{height: 100%;}
+html{height: 100%;}
+
+
+
+   video#whole {
+   min-width: 100%;
+   background: url(../images/indexstill.jpg) no-repeat;}
+
+
+#videohead{width:100%;
+    position: absolute;
+   left: 0px;
+   top: 0px;
+   height: 400px;
+   width:100%;
+   overflow: hidden;
+}
+
+
+nav{position: absolute;
+       height: 3.5%;
+       margin-top: 27%;}
+
+#cname{
+  position: absolute;
+z-index: 2;
+top: 0px;
+text-align: left;}
+
+#regen{
+   font-family: 'Special Elite', cursive; color: rgba(40, 30, 150, 1);
+   font-size: 3em;
+   position: absolute;
+   left: 11%;
+   top: 55%;
+}
+
+
+
+p{font-size: 24px; font-family: 'Slabo 27px', serif;}
+
+
+h2{font-size: 1.5em;
+   font-family: Arial;}
+
+h3{font-size: 24px;
+   font-family: 'Special Elite', cursive; color: black;}
+
+
+
+
+footer{
+   margin-top: 100%;
+position:relative;
+height: 30%;}
+
+
+
+.Scroll {
+   height: 80%;
+   width: 90%;
+   overflow: hidden;
+   position: absolute;
+   background-image: url("../images/than.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+   color: black;
+   margin-left: 6%;
+   margin-right: 10%;
+   margin-top: 25%;
+
+}
+
+
+.meat{
+   border: 10px solid rgba(40, 30, 150, 1);
+   background-color: rgba(180, 180, 255, .7);
+   position: absolute;
+   width: 98%;
+   height: 500%;
+/*Position Start quarter of the way in the page...re-wrote transform property for browser issues ---possibly change to 50% for better dramatic effect*/
+   -moz-transform:translateY(25%);
+   -webkit-transform:translateY(25%);
+   transform:translateY(25%);
+ /*Timing of Animation and how long it runs*/
+ -moz-animation: scroll-up 20s linear infinite;
+ -webkit-animation: scroll-up 20s linear infinite;
+ animation: scroll-up 20s linear infinite;}
+
+/*how it moves on screen -scrolling up*/
+@-moz-keyframes scroll-up {
+   0% { -moz-transform:
+   translateY(25%); }
+   100% { -moz-transform:
+      translateY(-100%); }
+   }
+@-webkit-keyframes scroll-up {
+   0% { -webkit-transform:
+   translateY(25%); }
+   100% { -webkit-transform:
+      translateY(-100%); }
+   }
+/*Browser issues and fixes*/
+@keyframes scroll-up {
+   0% {
+      -moz-transform: translateY(25%);
+      -webkit-transform: translateY(25%);
+      transform: translateY(25%); }
+   100% {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);}
+   }
+
+}

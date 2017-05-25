@@ -1,0 +1,143 @@
+
+
+
+
+  video#whole {
+  min-width: 100%;
+  background: url(../images/indexstill.jpg) no-repeat;}
+
+
+#videohead{
+  width:100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 400px;
+  width:100%;
+  overflow: hidden;
+}
+
+
+nav{
+  position: relative;
+  height: 4%;
+  margin-top: 23%;}
+
+#cname{
+  position: relative;
+  z-index: 2;
+  text-align: left;}
+
+
+
+.words{
+margin-left: 16%;
+width: 70%;
+margin-top: 15%;
+position: absolute;
+color: rgba(0, 0, 0, 1);
+font-size: 25px;
+}
+
+#quote{
+  text-align: center;
+  font-family: 'Slabo 27px', serif;}
+
+#core{
+  font-family: 'Slabo 27px', serif;
+  margin-left: 12%;
+  margin-right: 10%;
+     width: 80%;}
+
+#saying{
+  color: rgba(40, 30, 150, 1);
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+}
+
+
+#wel{
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  font-size: 1.5em;
+ animation: light 6s infinite;}
+
+
+@keyframes light {
+   0% {color: rgba(100, 183, 248, .7);}
+  25% {color: rgba(143, 200, 255, .7);}
+  50% {color: rgba(40, 30, 150, .7);}
+  75% {color: rgba(0, 36, 255, .7);}
+}
+
+
+
+#car img{
+  width: 325px; height: 325px;
+  position: absolute;
+  border-left: 10px solid rgb(255, 255, 255);
+  border-top: 10px solid rgb(255, 255, 255);}
+
+#SlideL img{
+  width: 325px; height: 325px;
+  position: absolute;
+  border-left: 10px solid rgb(255, 255, 255);
+  border-top: 10px solid rgb(255, 255, 255);}
+
+#SlideL {
+   height: 670px;
+   width: 990px;
+   position: absolute;}
+
+#Combo{
+position: relative;
+    width:990px;
+    height:670px;
+    top: 125px;
+    margin: 0 auto;}
+
+#cyborg{top: 0px; left: 0px;}
+#android{top: 0px; right: -15px;}
+#robots{left: 335px; bottom: 0px;}
+
+#car{
+   position: absolute;
+   width: 990px;
+   height: 670px;
+  }
+
+ #virt{top: 0px; left:335px;}
+ #regen{bottom: 0px; left: 0px;}
+ #wcar{right: -15px; bottom: 0px;}
+
+
+
+
+#car img:hover{opacity: .3;}
+
+
+#footerlogo{
+  height: 10%;
+  margin-left: 125%;
+  }
+
+
+
+.footside{display: inline-block;}
+
+ul li {
+  list-style-type: none;
+  float: left;
+}
+
+.footpics{height: 40px;
+        width: 40px}
+
+
+ /* footer unvisited link */
+ .foot:link {color: grey;
+ text-decoration: none; }
+
+ /* footer visited link */
+ .foot:visited {color: grey;
+ text-decoration: none; }

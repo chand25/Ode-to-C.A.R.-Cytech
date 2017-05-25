@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+
+	<link href="/normalize.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" type="text/css" href="css/home.css">
+
+</head>
+
+<header>
+<!--video was edited and made by me with the help of IMovie and Kizoa-->
+	<div id="videohead">
+			<video autoplay muted loop poster="images/indexstill.jpg" id="whole">
+			<source src="movies/aboutback.mp4" type="video/mp4"></video>
+	</div>
+
+<div id="cname"><h1 style="font-family: 'Special Elite', cursive; color: blue;}">CYTECH, Inc</h1></div>
+
+    <nav>
+
+		<a class="bar" href= "Home.html" >About</a> |
+
+    	    <a class="bar" href= "CAR.html">Synthetic Lifeforms</a> |
+
+		<a class="bar" href= "Regen.html">Regenerative Medicine &#38; Synthetic Biology</a> |
+
+		<a class="bar" href= "Virt2.html">The Virt</a> |
+
+		<a class="bar" href= "Contact Us.html">Contact</a>
+
+
+
+	</nav>
+
+
+</header>
+
+
+<body>
+
+
+
+
+<div id="Combo">
+
+	<div id="SlideL">
+
+     <img id="cyborg" src="images/CYTECHBLANK.jpeg">
+    	<img id="android" src="images/CYTECHBLANK.jpeg">
+    	<img id="robots" src="images/CYTECHBLANK.jpeg">
+
+	</div>
+
+	<div id="car">
+		<a href="Virt2.html"><img id="virt" src="images/Draftpod.jpg"></a>
+		<a href="Regen.html"><img id="regen" src="images/artificialwombs.jpg"></a>
+		<a href="CAR.html"><img id="wcar" src="images/Cyborgsvs.jpg"></a>
+
+	</div>
+
+
+</div>
+
+<!--music is from Star Wars -->
+<audio autoplay>
+	<source src="music/Star Wars Main Theme.mp3" type="audio/mpeg">
+	</audio>
+
+
+<!--Quote is an abriged and slightly modified version of a saying by Anais Nin"-->
+<div class="words">
+
+<h1 id="wel"> Welcome to the Age of Improvement</h1>
+	<p id="quote">
+	"In order to succeed, we must first believe that we can.  The will to win, the desire to succeed, the urge to reach our full potential with integrity....<br>These are the keys that will unlock the door to excellence."</p>
+
+	<p id="core">At CYTECH, Inc. we embrace these values and more to develop the most cutting-edge technology and improve the world of medicine.  Our business is separated into three facets of scientific exploration -- the virt, regenerative medicine &#38; synthetic biology and synthetic lifeforms also known as simicrants. Each sector is lead by the world's most talented scientific minds at advanced facilities around the world.</p>
+
+   <p id="saying">
+	Where Humans are not the Future and...Neither is your Reality</p>
+
+</div>
+
+
+
+
+<body onload="Slide();Slide2();">
+
+
+
+
+</body>
+
+<script>
+
+// frame is pre-defined and so is clearInterval
+//setInterval is how fast it goes....higher numbers means slower and vice versa
+// 800 is in pixels
+
+
+
+function Slide() {
+	var elem = document.getElementById("car");
+	var pos = -500;
+	var id = setInterval(frame, 4);
+	function frame() {
+		if (pos == 0) {
+			clearInterval(id);
+		} else {
+			pos++;
+			elem.style.left = pos + 'px';
+		}
+	}
+}
+
+function Slide2() {
+	var elem = document.getElementById("SlideL");
+	var pos = -500;
+	var id = setInterval(frame, 4);
+	function frame() {
+		if (pos == 0) {
+			clearInterval(id);
+		} else {
+			pos++;
+			elem.style.right = pos + 'px';
+		}
+	}
+}
+
+
+
+</script>
+
+
+
+
+
+<footer>
+
+<a class="foot" href= "Home.html">ABOUT US</a> |
+<a class="foot" href= "Contact Us.html">CONTACT US</a> |
+
+
+<ul>
+<li><a href="http://facebook.com/" target="_blank"><img class="footpics" src="images/facebooklogo.png"></a></li>
+<li><a href="http://linkedin.com/" target="_blank"><img class="footpics" src="images/linkedin.png"></a></li>
+<li><a href="http://twitter.com/" target="_blank"><img class="footpics" src="images/Twitterbird.png"></a></li>
+<li><a href="http://plus.google.com/" target="_blank"><img class="footpics" src="images/googleplus.png"></a></li>
+</ul>
+
+<div class="footside"><p>&copy; Copyright 2017, CYTECH, Inc. All Rights Reserved.</p></div>
+
+ <div class="footside"><img id="footerlogo" src="images/CYTECH Logo Small.jpeg">
+
+
+
+</footer>
+
+</html>

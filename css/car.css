@@ -1,0 +1,142 @@
+<style type="text/css">
+
+body{margin: 0 auto;}
+
+html body{
+  height: 100%;
+}
+
+header{
+      height: 25%;
+       width:100%;
+  }
+
+  video#whole {
+  min-width: 100%;
+  background: url(../images/indexstill.jpg) no-repeat;
+}
+
+video#evo{position: absolute;
+  z-index: 2;
+  margin-top: -30%
+}
+
+
+#insidevideo{margin-top: 1%;
+  margin-left: 32%;
+    width: 550px;}
+
+#videohead{width:100%;
+    position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 400px;
+  overflow: hidden;
+}
+
+
+nav{position: relative;
+      height: 4%;
+      margin-top: 27%;}
+
+
+footer{
+  margin-top: 80%;
+}
+
+
+.car{width:100%;
+      height: 650px;
+      left:20px;
+      margin-bottom: 50%;
+      position: absolute;
+    }
+
+/* detail span unvisited link */
+ .carlink:link {color: rgba(140, 130, 250, 1);
+ text-decoration: none;
+  }
+
+ /* detail span visited link */
+ .carlink:visited {color: rgba(140, 130, 250, 1);
+ text-decoration: none;
+}
+
+/* detail span hover info */
+.carlink:hover{
+    border: dashed blue;
+    border-radius: 15px;
+    color: blue;
+    background-color: rgba(255,255,255,.8);
+  }
+
+.detail{
+  font-family: 'Special Elite', cursive; color: rgba(140, 130, 250, 1); font-size: 1.5em; font-weight: bold;
+}
+
+.cartitle{
+  font-family: 'Special Elite', cursive; color: rgba(40, 30, 150, 1); font-size: 3em; font-weight: bold;
+}
+
+
+/*http://www.cyberdyne.jp/english/*/
+.cyborg{
+  background-image: url(../images/enhance.jpg);
+  display: inline-block;
+  background-repeat: no-repeat;
+  height: 600px;
+  width:32%;
+  top: 120px;
+    background-size: cover;
+    position: relative;
+    border-radius: 12px;
+  }
+
+
+/*Image from http://www.dailymail.co.uk/sciencetech/article*/
+.android{
+  background-image: url(../images/yyandroid.jpg);
+  display: inline-block;
+  background-repeat: no-repeat;
+  height: 600px;
+  width:32%;
+    background-size: cover;
+    position: relative;
+    top:120px;
+    border-radius: 12px;
+  }
+
+/*Image from rh.gatech.edu*/
+.robot{
+  background-image: url(../images/corobots.jpg);
+  display: inline-block;
+  height: 600px;
+  width:32%;
+    background-size: cover;
+    top:120px;
+    position: relative;
+    border-radius: 12px;
+  background-repeat: no-repeat;
+}
+
+.carwords{
+  color: rgba(255,255,255,1);
+  font-family: 'Slabo 27px', serif;
+  width: 99%;
+  height: 30.5%;
+  font-size: 25px;
+}
+
+.carwords{
+  background-color: black;
+}
+
+.carwords{
+   background: -webkit-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -moz-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+  }
+
